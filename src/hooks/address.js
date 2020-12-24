@@ -8,7 +8,7 @@ const statuslist = {
   error: "error",
 };
 
-export default function useAddressData() {
+export function useAddressData() {
   let [data, setData] = useState([]);
   let [count, setCount] = useState(0);
   let [status, setStatus] = useState(statuslist.idle);
