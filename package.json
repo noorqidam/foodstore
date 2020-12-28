@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
+    "autoprefixer": "^10.1.0",
     "axios": "^0.21.1",
     "debounce-promise": "^3.1.2",
     "dotenv": "^8.2.0",
@@ -25,6 +26,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "build:styles": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
